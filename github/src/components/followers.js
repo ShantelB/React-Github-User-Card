@@ -4,6 +4,8 @@ const Followers = props => {
   
   return (
     <div>
+
+        <h1>Followers</h1>
             {props.followers.map(item => (
 
           <div className="followers">
